@@ -1,0 +1,83 @@
+body {
+    background-image: url('4882066.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 600px;
+    color: #fff;
+    align-items: baseline; /* เพิ่มส่วนนี้ */
+    margin-right: 70px; /* เพิ่มส่วนนี้ */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h6 {
+    margin: 0;
+    color: #ffffffea;
+    text-align: right;
+    margin-right: 72px; /* เพิ่มส่วนนี้ */
+}
+
+label {
+    font-weight: bold;
+    flex: 1;
+    margin-right: 0%; /* เพิ่มระยะห่างข้างขวาเพื่อไม่ให้ชิดกันเกินไป */
+}
+
+input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* เพิ่มส่วนนี้ */
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* เพิ่มสไตล์ให้กับพื้นหลัง */
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
